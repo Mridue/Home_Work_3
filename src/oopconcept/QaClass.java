@@ -7,6 +7,8 @@ public class QaClass extends PntClass implements DemoClass {
 	
 	
 	
+	
+	
 
 	public void getBatchInfo() {System.out.println("The Duration of the course is "+courseDuration+ 
 			" Months \n"+"Maximum student in a batch is " +maxStudent+ 
@@ -14,7 +16,7 @@ public class QaClass extends PntClass implements DemoClass {
 
 	@Override
 	public void onCampus() {
-		System.out.println("This location offers on Campus facility");
+		System.out.println( CEO+"This location offers on Campus facility");
 
 	}
 

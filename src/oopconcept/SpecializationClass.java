@@ -1,9 +1,13 @@
 package oopconcept;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class SpecializationClass extends QaClass {
-	String location;
+	
+	
+    String location1="New York";
+    String location2="Virginia";
+    
 	int fee = 2000;
 	static int courseDuration = 2;
 	static int maxStudent = 30;
@@ -26,18 +30,18 @@ public class SpecializationClass extends QaClass {
 	}
 
 	public void newClassInfo() {
-		 //System.out.println("Please choose a location- New York or Virginia");
-		//Scanner input= new Scanner(System.in);
-		// String location=input.nextLine();
-		System.out.println("You have selected " + location);
-		if (location == "New York") {
+		 System.out.println("Please choose a location- New York or Virginia");
+		Scanner input= new Scanner(System.in);
+		 String area=input.nextLine();
+		System.out.println("You have selected " + area);
+		if (location1.equals(area)) {
 			tutor1 = "Matt Damon";
 			System.out.println("Instructor for this location is " + tutor1);
 			onCampus();
 			isWeekend();
 			isWeekday();
 			System.out.println("The Fee is $" + fee);
-		} else if (location == "Virginia") {
+		} else if (location2.equals(area)) {
 			tutor2 = "Jerry Donovan";
 			System.out.println("Instructor for this location is " + tutor2);
 			onCampus();

@@ -14,6 +14,7 @@ public class StudentClass extends SpecializationClass {
 		this.name = name;
 		this.id = id;
 	}
+	
 
 	protected int getSsn() {
 		System.out.println("Student name is : " + name);

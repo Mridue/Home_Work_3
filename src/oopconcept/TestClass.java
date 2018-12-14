@@ -5,6 +5,7 @@ public class TestClass {
 
 	public static void main(String[] args) {
 		
+		
 		QaClass fall = new QaClass();
 		fall.courseDuration = 5;
 		fall.classDuration = "5 hrs";
@@ -13,8 +14,11 @@ public class TestClass {
 		System.out.println();
 		fall.payment();
 		System.out.println();
+		
 
 		QaClass summer = new QaClass();
 		summer.getBatchInfo();
+		
+		
 
 }}

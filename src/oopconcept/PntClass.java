@@ -1,8 +1,8 @@
 package oopconcept;
 
 public abstract class PntClass {
-	final static String CEO="Abu Hanif";    
-	static int fee=4000;
+	 static final String CEO="Abu Hanif";    
+	 static int fee=4000;
 
 
 	    public abstract void onCampus();
